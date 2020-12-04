@@ -23,13 +23,13 @@
 define( 'DB_NAME', 'wordpress');
 
 /** MySQL database username */
-define( 'DB_USER', 'wordpress');
+define( 'DB_USER', 'wp-user');
 
 /** MySQL database password */
-define( 'DB_PASSWORD', 'wordpress');
+define( 'DB_PASSWORD', 'wp-pass');
 
 /** MySQL hostname */
-define( 'DB_HOST', 'db:3306');
+define( 'DB_HOST', 'db');
 
 /** Database Charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8');
@@ -46,14 +46,14 @@ define( 'DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         '3f92af2bfac96912d0a4054150d2c89f8517c1ff');
-define( 'SECURE_AUTH_KEY',  '3b85feb5af1353ef6dbc53718a2aad9b21001f3d');
-define( 'LOGGED_IN_KEY',    'b2244bd67e43eb42dd23a8d8297ca48e5ad5b91f');
-define( 'NONCE_KEY',        '44bb11e32c0cb5c8f6ac60b3d20602ee1c14af58');
-define( 'AUTH_SALT',        '7ad89b9abc72b1b74edc271cc051025fad48248c');
-define( 'SECURE_AUTH_SALT', 'f3072af233042dd212ddb4da9122208aa92e9044');
-define( 'LOGGED_IN_SALT',   '5aefd612f3ee9eb72805c73e3a2285d2cd5e2871');
-define( 'NONCE_SALT',       '0bd8de7645ea0b4917ddee11fd9502a2284c177d');
+define( 'AUTH_KEY',         '8893dc450f27dfac494ef3fefdced1bc3b6e6b7b');
+define( 'SECURE_AUTH_KEY',  'b5f35d499d22c68012538a6b10a3fee668180284');
+define( 'LOGGED_IN_KEY',    '55b1dc19620bf762e75dc64e4dc6bd7c71a39770');
+define( 'NONCE_KEY',        '3505a13143a008ac55468a9a81ed51afe96fdf9e');
+define( 'AUTH_SALT',        'cb58cb6629fd0d453333b35cbf4a72c17d3d7bdb');
+define( 'SECURE_AUTH_SALT', '81baf9b064fc5246fdec53321243564831988e12');
+define( 'LOGGED_IN_SALT',   '7cff0d1ec2acad10b6214efef6c0309d86b53d17');
+define( 'NONCE_SALT',       '2f8bf6c464513cab26a1c17a177d3cac4f337ee1');
 
 /**#@-*/
 
